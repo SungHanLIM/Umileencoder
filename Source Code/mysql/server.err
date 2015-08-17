@@ -1,0 +1,601 @@
+150727 18:19:56 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+150727 18:19:56  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+150727 18:19:57  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+150727 18:19:58  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+150727 18:19:59  InnoDB: Started; log sequence number 0 0
+150727 18:19:59 [Note] Event Scheduler: Loaded 0 events
+150727 18:19:59 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150728  9:55:35 [Note] APM_MYSQL5: Normal shutdown
+
+150728  9:55:35 [Note] Event Scheduler: Purging the queue. 0 events
+150728  9:55:38  InnoDB: Starting shutdown...
+150728  9:55:44  InnoDB: Shutdown completed; log sequence number 0 44233
+150728  9:55:45 [Note] APM_MYSQL5: Shutdown complete
+
+150728  9:56:56 [Note] Plugin 'FEDERATED' is disabled.
+150728  9:56:57  InnoDB: Started; log sequence number 0 44233
+150728  9:57:02 [Note] Event Scheduler: Loaded 0 events
+150728  9:57:02 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150728 14:58:49 [Note] Plugin 'FEDERATED' is disabled.
+150728 14:58:52  InnoDB: Started; log sequence number 0 44233
+150728 14:58:53 [Note] Event Scheduler: Loaded 0 events
+150728 14:58:53 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150728 16:15:16 [Note] APM_MYSQL5: Normal shutdown
+
+150728 16:15:16 [Note] Event Scheduler: Purging the queue. 0 events
+150728 16:15:16  InnoDB: Starting shutdown...
+150728 16:15:17  InnoDB: Shutdown completed; log sequence number 0 44233
+150728 16:15:17 [Note] APM_MYSQL5: Shutdown complete
+
+150728 16:17:25 [Note] Plugin 'FEDERATED' is disabled.
+150728 16:17:25  InnoDB: Started; log sequence number 0 44233
+150728 16:17:25 [Note] mysqld.exe: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150728 16:20:30 [Note] Plugin 'FEDERATED' is disabled.
+150728 16:20:30  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+150728 16:20:40  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+150728 16:20:50  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+150728 16:21:00  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+150728 16:21:14  InnoDB: Started; log sequence number 0 44233
+150728 16:21:14 [Note] Event Scheduler: Loaded 0 events
+150728 16:21:14 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150728 16:22:23 [Note] Plugin 'FEDERATED' is disabled.
+150728 16:22:24  InnoDB: Started; log sequence number 0 44233
+150728 16:22:30 [Note] Event Scheduler: Loaded 0 events
+150728 16:22:30 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150728 16:57:52 [Note] APM_MYSQL5: Normal shutdown
+
+150728 16:57:53 [Note] Event Scheduler: Purging the queue. 0 events
+150728 16:57:54  InnoDB: Starting shutdown...
+150728 16:57:56  InnoDB: Shutdown completed; log sequence number 0 44233
+150728 16:57:57 [Note] APM_MYSQL5: Shutdown complete
+
+150728 16:58:53 [Note] Plugin 'FEDERATED' is disabled.
+150728 16:58:55  InnoDB: Started; log sequence number 0 44233
+150728 16:58:58 [Note] Event Scheduler: Loaded 0 events
+150728 16:58:58 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150728 17:38:32 [Note] APM_MYSQL5: Normal shutdown
+
+150728 17:38:32 [Note] Event Scheduler: Purging the queue. 0 events
+150728 17:38:32  InnoDB: Starting shutdown...
+150728 17:38:33  InnoDB: Shutdown completed; log sequence number 0 44233
+150728 17:38:33 [Note] APM_MYSQL5: Shutdown complete
+
+150728 17:38:42 [Note] Plugin 'FEDERATED' is disabled.
+150728 17:38:43  InnoDB: Started; log sequence number 0 44233
+150728 17:38:43 [Note] Event Scheduler: Loaded 0 events
+150728 17:38:43 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150728 17:45:11 [Note] APM_MYSQL5: Normal shutdown
+
+150728 17:45:11 [Note] Event Scheduler: Purging the queue. 0 events
+150728 17:45:11  InnoDB: Starting shutdown...
+150728 17:45:12  InnoDB: Shutdown completed; log sequence number 0 44233
+150728 17:45:13 [Note] APM_MYSQL5: Shutdown complete
+
+150728 17:45:27 [Note] Plugin 'FEDERATED' is disabled.
+150728 17:45:27  InnoDB: Started; log sequence number 0 44233
+150728 17:45:28 [Note] Event Scheduler: Loaded 0 events
+150728 17:45:28 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150728 17:46:14 [Note] APM_MYSQL5: Normal shutdown
+
+150728 17:46:14 [Note] Event Scheduler: Purging the queue. 0 events
+150728 17:46:14  InnoDB: Starting shutdown...
+150728 17:46:15  InnoDB: Shutdown completed; log sequence number 0 44233
+150728 17:46:15 [Note] APM_MYSQL5: Shutdown complete
+
+150728 17:47:12 [Note] Plugin 'FEDERATED' is disabled.
+150728 17:47:14  InnoDB: Started; log sequence number 0 44233
+150728 17:47:14 [Note] Event Scheduler: Loaded 0 events
+150728 17:47:14 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729  9:31:18 [Note] APM_MYSQL5: Normal shutdown
+
+150729  9:31:18 [Note] Event Scheduler: Purging the queue. 0 events
+150729  9:31:18  InnoDB: Starting shutdown...
+150729  9:31:19  InnoDB: Shutdown completed; log sequence number 0 44233
+150729  9:31:19 [Note] APM_MYSQL5: Shutdown complete
+
+150729  9:31:38 [Note] Plugin 'FEDERATED' is disabled.
+150729  9:31:38  InnoDB: Started; log sequence number 0 44233
+150729  9:31:38 [Note] Event Scheduler: Loaded 0 events
+150729  9:31:38 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729  9:47:37 [Note] APM_MYSQL5: Normal shutdown
+
+150729  9:47:37 [Note] Event Scheduler: Purging the queue. 0 events
+150729  9:47:37  InnoDB: Starting shutdown...
+150729  9:47:38  InnoDB: Shutdown completed; log sequence number 0 44233
+150729  9:47:38 [Note] APM_MYSQL5: Shutdown complete
+
+150729  9:47:42 [Note] Plugin 'FEDERATED' is disabled.
+150729  9:47:43  InnoDB: Started; log sequence number 0 44233
+150729  9:47:43 [Note] Event Scheduler: Loaded 0 events
+150729  9:47:43 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729  9:48:27 [Note] APM_MYSQL5: Normal shutdown
+
+150729  9:48:27 [Note] Event Scheduler: Purging the queue. 0 events
+150729  9:48:27  InnoDB: Starting shutdown...
+150729  9:48:27  InnoDB: Shutdown completed; log sequence number 0 44233
+150729  9:48:27 [Note] APM_MYSQL5: Shutdown complete
+
+150729  9:48:43 [Note] Plugin 'FEDERATED' is disabled.
+150729  9:48:43  InnoDB: Started; log sequence number 0 44233
+150729  9:48:43 [Note] Event Scheduler: Loaded 0 events
+150729  9:48:43 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729  9:53:52 [Note] APM_MYSQL5: Normal shutdown
+
+150729  9:53:52 [Note] Event Scheduler: Purging the queue. 0 events
+150729  9:53:52  InnoDB: Starting shutdown...
+150729  9:53:53  InnoDB: Shutdown completed; log sequence number 0 44233
+150729  9:53:53 [Note] APM_MYSQL5: Shutdown complete
+
+150729  9:54:03 [Note] Plugin 'FEDERATED' is disabled.
+150729  9:54:04  InnoDB: Started; log sequence number 0 44233
+150729  9:54:04 [Note] Event Scheduler: Loaded 0 events
+150729  9:54:04 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 11:23:52 [Note] APM_MYSQL5: Normal shutdown
+
+150729 11:23:52 [Note] Event Scheduler: Purging the queue. 0 events
+150729 11:23:52  InnoDB: Starting shutdown...
+150729 11:23:53  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 11:23:53 [Note] APM_MYSQL5: Shutdown complete
+
+150729 11:24:08 [Note] Plugin 'FEDERATED' is disabled.
+150729 11:24:09  InnoDB: Started; log sequence number 0 44233
+150729 11:24:09 [Note] Event Scheduler: Loaded 0 events
+150729 11:24:09 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 11:40:39 [Note] APM_MYSQL5: Normal shutdown
+
+150729 11:40:39 [Note] Event Scheduler: Purging the queue. 0 events
+150729 11:40:39  InnoDB: Starting shutdown...
+150729 11:40:40  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 11:40:40 [Note] APM_MYSQL5: Shutdown complete
+
+150729 11:40:54 [Note] Plugin 'FEDERATED' is disabled.
+150729 11:40:54  InnoDB: Started; log sequence number 0 44233
+150729 11:40:54 [Note] Event Scheduler: Loaded 0 events
+150729 11:40:54 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 13:00:02 [Note] APM_MYSQL5: Normal shutdown
+
+150729 13:00:02 [Note] Event Scheduler: Purging the queue. 0 events
+150729 13:00:02  InnoDB: Starting shutdown...
+150729 13:00:03  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 13:00:03 [Note] APM_MYSQL5: Shutdown complete
+
+150729 13:01:00 [Note] Plugin 'FEDERATED' is disabled.
+150729 13:01:00  InnoDB: Started; log sequence number 0 44233
+150729 13:01:00 [Note] Event Scheduler: Loaded 0 events
+150729 13:01:00 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 13:52:00 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 13:53:07 [Note] APM_MYSQL5: Normal shutdown
+
+150729 13:53:07 [Note] Event Scheduler: Purging the queue. 0 events
+150729 13:53:09 [Warning] APM_MYSQL5: Forcing close of thread 4853  user: 'umileencoder'
+
+150729 13:53:09  InnoDB: Starting shutdown...
+150729 13:53:11  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 13:53:11 [Note] APM_MYSQL5: Shutdown complete
+
+150729 13:53:52 [Note] Plugin 'FEDERATED' is disabled.
+150729 13:53:53  InnoDB: Started; log sequence number 0 44233
+150729 13:53:53 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 13:53:53 [Note] Event Scheduler: Loaded 0 events
+150729 13:53:53 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 14:27:05 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:27:05 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:31:12 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:31:12 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:31:12 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:37:46 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:37:46 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:37:46 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:37:46 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:37:59 [Note] APM_MYSQL5: Normal shutdown
+
+150729 14:37:59 [Note] Event Scheduler: Purging the queue. 0 events
+150729 14:38:01 [Warning] APM_MYSQL5: Forcing close of thread 775  user: 'root'
+
+150729 14:38:01  InnoDB: Starting shutdown...
+150729 14:38:02  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 14:38:02 [Note] APM_MYSQL5: Shutdown complete
+
+150729 14:38:42 [Note] Plugin 'FEDERATED' is disabled.
+150729 14:38:42  InnoDB: Started; log sequence number 0 44233
+150729 14:38:42 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:38:42 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:38:42 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:38:42 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 14:38:42 [Note] Event Scheduler: Loaded 0 events
+150729 14:38:42 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 15:05:08 [Note] APM_MYSQL5: Normal shutdown
+
+150729 15:05:08 [Note] Event Scheduler: Purging the queue. 0 events
+150729 15:05:10 [Warning] APM_MYSQL5: Forcing close of thread 169  user: 'root'
+
+150729 15:05:11  InnoDB: Starting shutdown...
+150729 15:05:12  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 15:05:12 [Note] APM_MYSQL5: Shutdown complete
+
+150729 15:05:26 [Note] Plugin 'FEDERATED' is disabled.
+150729 15:05:26  InnoDB: Started; log sequence number 0 44233
+150729 15:05:26 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 15:05:26 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 15:05:26 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 15:05:26 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 15:05:26 [Note] Event Scheduler: Loaded 0 events
+150729 15:05:26 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 15:49:20 [Note] APM_MYSQL5: Normal shutdown
+
+150729 15:49:20 [Note] Event Scheduler: Purging the queue. 0 events
+150729 15:49:20  InnoDB: Starting shutdown...
+150729 15:49:21  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 15:49:21 [Note] APM_MYSQL5: Shutdown complete
+
+150729 15:49:44 [Note] Plugin 'FEDERATED' is disabled.
+150729 15:49:44  InnoDB: Started; log sequence number 0 44233
+150729 15:49:44 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 15:49:44 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 15:49:44 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 15:49:44 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 15:49:44 [Note] Event Scheduler: Loaded 0 events
+150729 15:49:44 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 15:59:55 [Note] APM_MYSQL5: Normal shutdown
+
+150729 15:59:55 [Note] Event Scheduler: Purging the queue. 0 events
+150729 15:59:55  InnoDB: Starting shutdown...
+150729 15:59:56  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 15:59:56 [Note] APM_MYSQL5: Shutdown complete
+
+150729 16:00:21 [Note] Plugin 'FEDERATED' is disabled.
+150729 16:00:22  InnoDB: Started; log sequence number 0 44233
+150729 16:00:22 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:00:22 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:00:22 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:00:22 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:00:22 [Note] Event Scheduler: Loaded 0 events
+150729 16:00:22 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 16:00:25 [Note] APM_MYSQL5: Normal shutdown
+
+150729 16:00:25 [Note] Event Scheduler: Purging the queue. 0 events
+150729 16:00:25  InnoDB: Starting shutdown...
+150729 16:00:25  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 16:00:25 [Note] APM_MYSQL5: Shutdown complete
+
+150729 16:00:30 [Note] Plugin 'FEDERATED' is disabled.
+150729 16:00:30  InnoDB: Started; log sequence number 0 44233
+150729 16:00:30 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:00:30 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:00:30 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:00:30 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:00:30 [Note] Event Scheduler: Loaded 0 events
+150729 16:00:30 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 16:02:40 [Note] APM_MYSQL5: Normal shutdown
+
+150729 16:02:40 [Note] Event Scheduler: Purging the queue. 0 events
+150729 16:02:40  InnoDB: Starting shutdown...
+150729 16:02:42  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 16:02:42 [Note] APM_MYSQL5: Shutdown complete
+
+150729 16:02:58 [Note] Plugin 'FEDERATED' is disabled.
+150729 16:02:58  InnoDB: Started; log sequence number 0 44233
+150729 16:02:58 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:02:58 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:02:58 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:02:58 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:02:58 [Note] Event Scheduler: Loaded 0 events
+150729 16:02:58 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 16:10:59 [Note] APM_MYSQL5: Normal shutdown
+
+150729 16:10:59 [Note] Event Scheduler: Purging the queue. 0 events
+150729 16:10:59  InnoDB: Starting shutdown...
+150729 16:11:00  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 16:11:00 [Note] APM_MYSQL5: Shutdown complete
+
+150729 16:17:41 [Note] Plugin 'FEDERATED' is disabled.
+150729 16:17:41  InnoDB: Started; log sequence number 0 44233
+150729 16:17:41 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:17:41 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:17:41 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:17:41 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:17:41 [Note] Event Scheduler: Loaded 0 events
+150729 16:17:41 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 16:22:35 [Note] APM_MYSQL5: Normal shutdown
+
+150729 16:22:35 [Note] Event Scheduler: Purging the queue. 0 events
+150729 16:22:35  InnoDB: Starting shutdown...
+150729 16:22:36  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 16:22:36 [Note] APM_MYSQL5: Shutdown complete
+
+150729 16:31:58 [Note] Plugin 'FEDERATED' is disabled.
+150729 16:31:58  InnoDB: Started; log sequence number 0 44233
+150729 16:31:59 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:31:59 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:31:59 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:31:59 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:31:59 [Note] Event Scheduler: Loaded 0 events
+150729 16:31:59 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 16:34:58 [Note] APM_MYSQL5: Normal shutdown
+
+150729 16:34:58 [Note] Event Scheduler: Purging the queue. 0 events
+150729 16:34:58  InnoDB: Starting shutdown...
+150729 16:34:59  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 16:34:59 [Note] APM_MYSQL5: Shutdown complete
+
+150729 16:36:48 [Note] Plugin 'FEDERATED' is disabled.
+150729 16:36:49  InnoDB: Started; log sequence number 0 44233
+150729 16:36:49 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:36:49 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:36:49 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:36:49 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:36:49 [Note] Event Scheduler: Loaded 0 events
+150729 16:36:49 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 16:36:58 [Note] APM_MYSQL5: Normal shutdown
+
+150729 16:36:58 [Note] Event Scheduler: Purging the queue. 0 events
+150729 16:36:58  InnoDB: Starting shutdown...
+150729 16:36:59  InnoDB: Shutdown completed; log sequence number 0 44233
+150729 16:36:59 [Note] APM_MYSQL5: Shutdown complete
+
+150729 16:37:22 [Note] Plugin 'FEDERATED' is disabled.
+150729 16:37:22  InnoDB: Started; log sequence number 0 44233
+150729 16:37:22 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:37:22 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:37:22 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:37:22 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 16:37:22 [Note] Event Scheduler: Loaded 0 events
+150729 16:37:22 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150729 18:06:36 [Note] Plugin 'FEDERATED' is disabled.
+150729 18:06:36  InnoDB: Started; log sequence number 0 44233
+150729 18:06:37 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 18:06:37 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 18:06:37 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 18:06:37 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150729 18:06:37 [Note] Event Scheduler: Loaded 0 events
+150729 18:06:37 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150730  9:10:39 [Note] APM_MYSQL5: Normal shutdown
+
+150730  9:10:39 [Note] Event Scheduler: Purging the queue. 0 events
+150730  9:10:39  InnoDB: Starting shutdown...
+150730  9:10:40  InnoDB: Shutdown completed; log sequence number 0 44233
+150730  9:10:40 [Note] APM_MYSQL5: Shutdown complete
+
+150730  9:10:54 [Note] Plugin 'FEDERATED' is disabled.
+150730  9:10:55  InnoDB: Started; log sequence number 0 44233
+150730  9:10:55 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150730  9:10:55 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150730  9:10:55 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150730  9:10:55 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150730  9:10:55 [Note] Event Scheduler: Loaded 0 events
+150730  9:10:55 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150730  9:16:22 [Note] APM_MYSQL5: Normal shutdown
+
+150730  9:16:22 [Note] Event Scheduler: Purging the queue. 0 events
+150730  9:16:22  InnoDB: Starting shutdown...
+150730  9:16:23  InnoDB: Shutdown completed; log sequence number 0 44233
+150730  9:16:23 [Note] APM_MYSQL5: Shutdown complete
+
+150730  9:17:01 [Note] Plugin 'FEDERATED' is disabled.
+150730  9:17:01  InnoDB: Started; log sequence number 0 44233
+150730  9:17:01 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150730  9:17:01 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150730  9:17:01 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150730  9:17:01 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150730  9:17:01 [Note] Event Scheduler: Loaded 0 events
+150730  9:17:01 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150731 13:37:20 [Note] APM_MYSQL5: Normal shutdown
+
+150731 13:37:20 [Note] Event Scheduler: Purging the queue. 0 events
+150731 13:37:20  InnoDB: Starting shutdown...
+150731 13:37:23  InnoDB: Shutdown completed; log sequence number 0 44233
+150731 13:37:24 [Note] APM_MYSQL5: Shutdown complete
+
+150731 13:38:11 [Note] Plugin 'FEDERATED' is disabled.
+150731 13:38:12  InnoDB: Started; log sequence number 0 44233
+150731 13:38:12 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150731 13:38:12 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150731 13:38:12 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150731 13:38:12 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150731 13:38:12 [Note] Event Scheduler: Loaded 0 events
+150731 13:38:12 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150803 13:22:25 [Note] APM_MYSQL5: Normal shutdown
+
+150803 13:22:25 [Note] Event Scheduler: Purging the queue. 0 events
+150803 13:22:27 [Warning] APM_MYSQL5: Forcing close of thread 147656  user: 'umileencoder'
+
+150803 13:22:27  InnoDB: Starting shutdown...
+150803 13:22:29  InnoDB: Shutdown completed; log sequence number 0 44233
+150803 13:22:29 [Note] APM_MYSQL5: Shutdown complete
+
+150803 13:22:43 [Note] Plugin 'FEDERATED' is disabled.
+150803 13:22:43  InnoDB: Started; log sequence number 0 44233
+150803 13:22:43 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 13:22:43 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 13:22:43 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 13:22:43 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 13:22:43 [Note] Event Scheduler: Loaded 0 events
+150803 13:22:43 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150803 13:28:29 [Note] APM_MYSQL5: Normal shutdown
+
+150803 13:28:29 [Note] Event Scheduler: Purging the queue. 0 events
+150803 13:28:29  InnoDB: Starting shutdown...
+150803 13:28:30  InnoDB: Shutdown completed; log sequence number 0 44233
+150803 13:28:30 [Note] APM_MYSQL5: Shutdown complete
+
+150803 13:29:11 [Note] Plugin 'FEDERATED' is disabled.
+150803 13:29:11  InnoDB: Started; log sequence number 0 44233
+150803 13:29:11 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 13:29:11 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 13:29:11 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 13:29:11 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 13:29:11 [Note] Event Scheduler: Loaded 0 events
+150803 13:29:11 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150803 14:38:24 [Note] APM_MYSQL5: Normal shutdown
+
+150803 14:38:24 [Note] Event Scheduler: Purging the queue. 0 events
+150803 14:38:24  InnoDB: Starting shutdown...
+150803 14:38:25  InnoDB: Shutdown completed; log sequence number 0 44233
+150803 14:38:25 [Note] APM_MYSQL5: Shutdown complete
+
+150803 14:38:42 [Note] Plugin 'FEDERATED' is disabled.
+150803 14:38:42  InnoDB: Started; log sequence number 0 44233
+150803 14:38:42 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 14:38:42 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 14:38:42 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 14:38:42 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 14:38:42 [Note] Event Scheduler: Loaded 0 events
+150803 14:38:42 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150803 16:24:43 [Note] Plugin 'FEDERATED' is disabled.
+150803 16:24:47  InnoDB: Started; log sequence number 0 44233
+150803 16:24:47 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 16:24:47 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 16:24:47 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 16:24:47 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 16:24:50 [Note] Event Scheduler: Loaded 0 events
+150803 16:24:50 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150803 16:42:13 [Note] Plugin 'FEDERATED' is disabled.
+150803 16:42:14  InnoDB: Started; log sequence number 0 44233
+150803 16:42:15 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 16:42:15 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 16:42:15 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 16:42:15 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 16:42:15 [Note] Event Scheduler: Loaded 0 events
+150803 16:42:15 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150803 17:03:29 [Note] Plugin 'FEDERATED' is disabled.
+150803 17:03:31  InnoDB: Started; log sequence number 0 44233
+150803 17:03:32 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 17:03:32 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 17:03:32 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 17:03:32 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 17:03:32 [Note] Event Scheduler: Loaded 0 events
+150803 17:03:32 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150803 17:25:24 [Note] APM_MYSQL5: Normal shutdown
+
+150803 17:25:24 [Note] Event Scheduler: Purging the queue. 0 events
+150803 17:25:24  InnoDB: Starting shutdown...
+150803 17:25:25  InnoDB: Shutdown completed; log sequence number 0 44233
+150803 17:25:25 [Note] APM_MYSQL5: Shutdown complete
+
+150803 17:26:42 [Note] Plugin 'FEDERATED' is disabled.
+150803 17:26:42  InnoDB: Started; log sequence number 0 44233
+150803 17:26:43 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 17:26:43 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 17:26:43 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 17:26:43 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150803 17:26:43 [Note] Event Scheduler: Loaded 0 events
+150803 17:26:43 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150731 18:42:27 [Note] APM_MYSQL5: Normal shutdown
+
+150731 18:42:27 [Note] Event Scheduler: Purging the queue. 0 events
+150731 18:42:27  InnoDB: Starting shutdown...
+150731 18:42:29  InnoDB: Shutdown completed; log sequence number 0 44233
+150731 18:42:29 [Note] APM_MYSQL5: Shutdown complete
+
+150731 18:43:06 [Note] Plugin 'FEDERATED' is disabled.
+150731 18:43:07  InnoDB: Started; log sequence number 0 44233
+150731 18:43:07 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150731 18:43:07 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150731 18:43:07 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150731 18:43:07 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150731 18:43:07 [Note] Event Scheduler: Loaded 0 events
+150731 18:43:07 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150804 16:44:28 [Note] APM_MYSQL5: Normal shutdown
+
+150804 16:44:28 [Note] Event Scheduler: Purging the queue. 0 events
+150804 16:44:29  InnoDB: Starting shutdown...
+150804 16:44:31  InnoDB: Shutdown completed; log sequence number 0 44233
+150804 16:44:31 [Note] APM_MYSQL5: Shutdown complete
+
+150804 16:44:44 [Note] Plugin 'FEDERATED' is disabled.
+150804 16:44:44  InnoDB: Started; log sequence number 0 44233
+150804 16:44:44 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150804 16:44:44 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150804 16:44:44 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150804 16:44:44 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150804 16:44:44 [Note] Event Scheduler: Loaded 0 events
+150804 16:44:44 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150806 10:00:14 [Note] Plugin 'FEDERATED' is disabled.
+150806 10:00:16  InnoDB: Started; log sequence number 0 44233
+150806 10:00:16 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150806 10:00:16 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150806 10:00:16 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150806 10:00:16 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150806 10:00:17 [Note] Event Scheduler: Loaded 0 events
+150806 10:00:17 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+150806 10:16:11 [Note] APM_MYSQL5: Normal shutdown
+
+150806 10:16:11 [Note] Event Scheduler: Purging the queue. 0 events
+150806 10:16:11  InnoDB: Starting shutdown...
+150806 10:16:12  InnoDB: Shutdown completed; log sequence number 0 44233
+150806 10:16:12 [Note] APM_MYSQL5: Shutdown complete
+
+150806 10:16:33 [Note] Plugin 'FEDERATED' is disabled.
+150806 10:16:34  InnoDB: Started; log sequence number 0 44233
+150806 10:16:34 [Warning] 'db' entry 'umileencoder umileencoder@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150806 10:16:34 [Warning] 'db' entry 'umileyoutubedownloader umileytd@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150806 10:16:34 [Warning] 'db' entry 'umileair umileair@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150806 10:16:34 [Warning] 'db' entry 'umilecustomer umilecustomer@localhost' had database in mixed case that has been forced to lowercase because lower_case_table_names is set. It will not be possible to remove this privilege using REVOKE.
+150806 10:16:34 [Note] Event Scheduler: Loaded 0 events
+150806 10:16:34 [Note] APM_MYSQL5: ready for connections.
+Version: '5.1.41-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
