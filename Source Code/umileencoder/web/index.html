@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+	<title>Umile Encoder Homepage</title>
+	<script type="text/javascript">
+  		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-9158388-3']);
+  		_gaq.push(['_trackPageview']);
+
+  		(function() {
+    			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+	</script>
+	<script> 
+		var type=navigator.appName 
+		if (type=="Netscape") 
+		var lang = navigator.language 
+		else 
+		var lang = navigator.userLanguage 
+
+		var langfull = lang;
+		//cut down to first 2 chars of country code 
+		var lang = lang.substr(0,2) 
+
+		// 영어
+		if (lang == "en") 
+		window.location.replace('./en/') 
+
+		// 한국어
+		if (lang == "ko") 
+		window.location.replace('./kr/')
+
+		// 일본어
+		else if (lang == "ja") 
+		window.location.replace('./en/') 
+		
+		// 중국어
+		else if (lang == "cn") 
+		window.location.replace('./ch/')
+
+		// 위에 언어들 말고 다른언어들 
+		else 
+		window.location.replace('./en/')
+	</script> 	
+</head>
+<body>
+Go to the Umile Encoder Homepage...
+</body>
+</html>

@@ -1,0 +1,219 @@
+﻿<?php
+	include("../../../console/include/DBConnection.php");
+	require_once("../../../console/classes/UmileEncoder.class.php");
+	require_once("../../../console/classes/SendMail.class.php");
+	
+	// 디버깅 작업 //
+	
+	//echo $database['database']; // = 'UmileEncoder';
+	//echo $database['username']; // = 'umileencoder';
+	//echo $database['password']; // = 'nonia21088123';
+	
+	
+	$db_conn = mysql_connect($database['server'], $database['username'], $database['password']);
+	mysql_query("set names utf8", $db_conn);
+	
+	$objUmile = new UmileEncoder($database['database']);
+	
+	$resultAll = $objUmile->Mail_Daily_Summary('all');  // 전체 사용량
+	$resultEn = $objUmile->Mail_Daily_Summary('en');    // 국외 사용량
+	$resultKr[0] = $resultAll[0]-$resultEn[0];			// 국내 사용량
+	
+	$resultAll[1];										// 전체 변환파일
+	$resultEn[1];										// 국외 변환파일
+	$resultKr[1] = $resultAll[1] - $resultEn[1];		// 국내 변환파일
+	
+	
+	mysql_close($db_conn);
+	
+	$yesterday = date('Y-m-d', mktime(0, 0, 0, date("m")  , date("d") - 1, date("Y")));
+	$strSubject = '[UmileEncoder] '.$yesterday.' 일일 사용 현황';
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="../css/text_main.css" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<title>Welcome to Umile Family (유마일 인코더 3, Umile Encoder 3)</title>
+<script type="text/javascript">
+  		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-9158388-3']);
+  		_gaq.push(['_trackPageview']);
+
+  		(function() {
+    			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+</script>
+</head>
+
+<body>
+<div class="wrap">
+   <!-- topmenu -->
+     <div class="topmenu">
+	 <table cellpadding="0" cellspacing="0" border=0 width=100% class="menu_type">
+	   <colgroup>
+	   <col width=450 /><col width=530 />
+	   </colgroup>
+	   <caption>topmenu</caption>
+	   <tbody>
+	   <tr>
+	     <td rowspan=3 valign="top"><div class="logo"><a href="../index.html">Umile Encoder</a></div></td>
+		 <td class="lang" valign="top">
+		 <ul>
+		   <li class="lang_01"><a href="/kr/index.html">Korea</a></li>
+		   <li class="lang_02"><a href="/en/index.html">English</a></li>
+		   <li class="lang_03"><a href="/ch/index.html">chinese</a></li>
+		   <li class="lang_04"><a href="/ja/index.html">japan</a></li>
+		 </ul>
+		 </td>
+		</tr>
+	   <tr>
+		 <td  class="menu">
+		 <!-- 메뉴표시 -->
+		 <ul>
+		   <li class="menu_01"><a href="../tutorial/tutorial_install.html">TuTorial</a></li>
+		   <li class="menu_02"><a href="../feature/feature.html">Features</a></li>
+		   <li class="menu_03_selected"><a href="download.html">Download</a></li>
+		   <li class="menu_04"><a href="../support/contactus.html">Support</a></li>
+		   <li class="menu_05"><a href="../donation/donation.html">Donation</a></li>
+		 </ul>
+		 <!-- 메뉴표시 -->
+		 </td>
+		</tr>
+	   <tr>
+		 <td class="submenu01">
+	        <ul>
+              <li><a href="download.html" class="active">다운로드</a></li>
+              <li><a href="download_history.html">업데이트 내역</a></li>
+            </ul>
+		 </td>
+		</tr>
+		</tbody>
+	 </table>
+     
+     </div>
+   <!-- topmenu -->
+ 
+   
+   <!-- container --> 
+     <div class="container">
+       <div class="snb01">
+  
+  <div class="download">
+     <!-- adsense_top --> 
+    <div class="adsense">
+	<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-3193103530609103";
+	/* 유마일 인코더 Top */
+	google_ad_slot = "5171784351";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	google_language = 'ko';
+	//-->
+	</script>
+	<script type="text/javascript"
+	src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+	</div>
+   <!-- adsense_top -->
+    <div class="title">유마일 인코더 <b>다운로드</b></div>
+  <div class="image">Umile Encoder ScreenShot</div>
+
+  <div class="title01">Umile Encoder Free Download<br /><br />
+  </div>
+  
+   <div class="site01">
+       <ul class="site">
+        <li class="site_01"><a href="http://software.naver.com/software/summary.nhn?softwareId=MFS_100195" target="_blank">naver download</a></li>
+     </ul>
+     </div>
+    </div>
+            </div>
+			</div>
+			
+			
+			
+<div class="container">
+	<div class="panel panel-success">
+      <!-- Default panel contents -->
+      <div class="panel-heading"><b>UmileEncoder 일일 사용량</b></div>
+
+      <!-- Table -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th>구분</th>
+            <th>사용자</th>
+            <th>변환파일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>국내</td>
+            <td><?echo $resultKr[0] ?></td>
+            <td><?echo $resultKr[1] ?></td>
+          </tr>
+          <tr>
+            <td>국외</td>
+            <td><?echo $resultEn[0] ?></td>
+            <td><?echo $resultEn[1] ?></td>
+          </tr>
+          <tr>
+            <td>합계</td>
+            <td><?echo $resultAll[0] ?></td>
+            <td><?echo $resultAll[1] ?></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>			
+    </div>
+	<? echo $dbName ?>
+	
+	
+		 
+ <!-- adsense_bottom --> 
+	<div class="adsense">
+		 <script type="text/javascript"><!--
+			google_ad_client = "ca-pub-3193103530609103";
+			/* 유마일 인코더 Bottom */
+			google_ad_slot = "8333715566";
+			google_ad_width = 728;
+			google_ad_height = 90;
+			google_language = 'ko';
+			//-->
+		</script>
+		<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+	</div>
+   <!-- adsense_bottom --> 
+     </div>
+   <!-- container --> 
+   
+    
+</div> 
+
+
+<div style="height:50px;"></div>
+    <!-- footer --> 
+     <div class="footer">
+     <div class="copy">
+        <div class="image"><a href="http://www.technonia.com" target="_blank">Technonia</a></div>
+		<div class="text">Copyright 2011 Technonia Inc. All Rights Reserved.</div>
+      </div>
+     </div>
+   <!-- footer -->    
+</body>
+</html>
